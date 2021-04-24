@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     case "Lizard":
                     case "8ball":
                     case "Tickle":
-                    case "Ie":
+                    case "Feed":
 
                     case "Erokemo":
                         i.putExtra("url", "https://nekos.life/api/v2/img/" + item.toLowerCase());
