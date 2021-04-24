@@ -12,16 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NekosAPI">
         <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.NekosAPI.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:label="YourAppName"
+            android:theme="@style/Theme.NekosAPI.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Viewer"
+            android:theme="@style/Theme.NekosAPI.NoActionBar" />
     </application>
 
 </manifest>
